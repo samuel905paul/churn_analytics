@@ -1,18 +1,18 @@
-# 📊 Predictive Customer Churn Analytics System
+# Predictive Customer Churn Analytics System
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![SQL](https://img.shields.io/badge/SQL-Server-orange.svg)
 ![Accuracy](https://img.shields.io/badge/Model_Accuracy-75%25-green.svg)
 ![Impact](https://img.shields.io/badge/Revenue_Protected-$2.5M-success.svg)
 
-## 🎯 Business Impact
+## Business Impact
 
 - **$2.5M** in at-risk ARR identified and protected
 - **75%** prediction accuracy on 3M+ customer records
 - **18%** improvement in customer lifetime value
 - Enabled proactive retention strategies across entire customer base
 
-## 📋 Project Overview
+## Project Overview
 
 Enterprise-grade machine learning system that analyzes customer behavior patterns to predict churn risk, enabling data-driven retention strategies. Built using Python, SQL Server, and scikit-learn with production-ready data pipelines.
 
@@ -24,7 +24,7 @@ Enterprise-grade machine learning system that analyzes customer behavior pattern
 ✅ **Automated Reporting**: Daily churn risk reports with actionable insights  
 ✅ **SQL Integration**: Optimized queries for real-time scoring
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐      ┌──────────────────┐      ┌─────────────────┐
@@ -39,7 +39,7 @@ Enterprise-grade machine learning system that analyzes customer behavior pattern
 └─────────────────┘      └──────────────────┘      └─────────────────┘
 ```
 
-## 📊 Dataset Features
+## Dataset Features
 
 | Feature Category | Features | Source |
 |-----------------|----------|--------|
@@ -49,7 +49,7 @@ Enterprise-grade machine learning system that analyzes customer behavior pattern
 | **Engagement** | Support Tickets, NPS Score, Email Opens | Support & Marketing |
 | **Behavioral** | Last Login Days, Feature Usage Trends | Product Logs |
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -90,7 +90,7 @@ python src/predict_churn.py
 python src/visualizations.py
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 churn-analytics/
@@ -126,7 +126,7 @@ churn-analytics/
 └── README.md
 ```
 
-## 🔍 Model Performance
+## Model Performance
 
 ### Classification Metrics
 
@@ -158,7 +158,7 @@ No Churn    [ 42,150   7,850 ]
 Churn       [  6,600  23,400 ]
 ```
 
-## 💡 Key Insights
+## Key Insights
 
 ### High-Risk Indicators
 
@@ -173,7 +173,7 @@ Churn       [  6,600  23,400 ]
 - **Nurture Campaign** (Medium Risk): Automated email re-engagement
 - **Health Monitoring** (Low Risk): Quarterly business reviews
 
-## 📈 Results & Impact
+## Results & Impact
 
 ### Revenue Protection
 - Identified 9,400 high-risk customers worth $2.5M ARR
@@ -185,7 +185,7 @@ Churn       [  6,600  23,400 ]
 - Automated daily risk scoring for 80K+ active customers
 - Enabled proactive vs. reactive retention approach
 
-## 🛠️ Technical Highlights
+## Technical Highlights
 
 ### SQL Optimization
 ```sql
@@ -226,22 +226,22 @@ with concurrent.futures.ProcessPoolExecutor() as executor:
 - [ ] Multi-channel integration (email, Slack, Salesforce)
 - [ ] Explainable AI dashboard (SHAP values)
 
-## 📚 Documentation
+## Documentation
 
 - [Model Training Guide](docs/model_training.md)
 - [Feature Engineering Methodology](docs/feature_engineering.md)
 - [SQL Query Optimization](docs/sql_optimization.md)
 - [Deployment Instructions](docs/deployment.md)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-## 📄 License
+## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+## Author
 
 **T Samuel Paul**  
 Data Analyst | Business Intelligence Specialist
@@ -250,7 +250,7 @@ Data Analyst | Business Intelligence Specialist
 - Email: tsamuelpaul01@gmail.com
 - Portfolio: [Your Portfolio Link]
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Built during Business Analyst internship, processing real enterprise data and delivering measurable business impact.
 
