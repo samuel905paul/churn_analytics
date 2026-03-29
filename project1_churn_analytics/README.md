@@ -237,9 +237,6 @@ with concurrent.futures.ProcessPoolExecutor() as executor:
 
 Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-## License
-
-MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Author
 
@@ -248,7 +245,7 @@ Data Analyst | Business Intelligence Specialist
 
 - LinkedIn: [linkedin.com/in/tsamuelpaul01](https://www.linkedin.com/in/tsamuelpaul01)
 - Email: tsamuelpaul01@gmail.com
-- Portfolio: [Your Portfolio Link]
+- Portfolio: 
 
 ## Acknowledgments
 
