@@ -18,11 +18,11 @@ Enterprise-grade machine learning system that analyzes customer behavior pattern
 
 ### Key Features
 
-✅ **Predictive ML Model**: Random Forest classifier with 75% accuracy  
-✅ **Scalable ETL Pipeline**: Processes 3M+ customer records efficiently  
-✅ **Risk Segmentation**: Categorizes customers into High/Medium/Low risk tiers  
-✅ **Automated Reporting**: Daily churn risk reports with actionable insights  
-✅ **SQL Integration**: Optimized queries for real-time scoring
+**Predictive ML Model**: Random Forest classifier with 75% accuracy  
+**Scalable ETL Pipeline**: Processes 3M+ customer records efficiently  
+**Risk Segmentation**: Categorizes customers into High/Medium/Low risk tiers  
+**Automated Reporting**: Daily churn risk reports with actionable insights  
+**SQL Integration**: Optimized queries for real-time scoring
 
 ## Architecture
 
@@ -218,7 +218,7 @@ with concurrent.futures.ProcessPoolExecutor() as executor:
     results = executor.map(process_customer_batch, batch_iterator)
 ```
 
-## 📝 Future Enhancements
+## Future Enhancements
 
 - [ ] Real-time prediction API using Flask
 - [ ] Deep learning model (LSTM) for time-series patterns
